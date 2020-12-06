@@ -160,9 +160,47 @@ li{
     justify-content: center;
     align-items: center;
 }
-.progress{
-    margin-bottom: 25px;
-}
+
 i{
-    color: blue
+    color: rgb(163, 163, 170)
+}
+.serviceweb{
+    color: white;
+    background: rgb(153, 0, 255)
+   
+}
+.serviceweb:hover{
+    color: black;
+    background:white;
+}
+.serviceSEO{
+    color: white;
+    background: rgb(37, 196, 169)
+}
+.serviceSEO:hover{
+    color: black;
+    background: white;
+}
+.serviceMARKETING{
+    color: white;
+    background: rgb(0, 255, 76)  
+}
+.serviceMARKETING:hover{
+    color: black;
+    background: white;
+}
+.web-word{
+    font-weight: bold;
+    margin-top : 50px!important;
+    margin-bottom: 30px!important;
+}
+.first3services{
+    margin-bottom: 50px!important;
+}
+.services-container{
+    background:lightgray;
+}
+/*........completed projects....*/
+.head{
+margin-top: 50px;
 }
