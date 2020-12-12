@@ -204,3 +204,78 @@ i{
 .head{
 margin-top: 50px;
 }
+/*..... pricing ...*/
+.headingpricing{
+    padding-bottom: 30px;
+}
+.pricing {
+   width: 100%;
+   height: 100vh;
+   padding: 50px ;
+   position: relative; 
+}
+.pricing:before {
+    content : "" ;
+    position: absolute;
+    top : 0%;
+    bottom : 0%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background : linear-gradient(160deg,  #16c9f6 55% , #fff 0%)
+
+}
+.money{
+    font-size: 32px;
+    font: bold;
+    line-height: 1 ;
+}
+.card{
+    
+    transition: 0.4 ease;
+}
+.card:hover{
+    transform:translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);;
+}
+.card-header{
+    font-size: 1.6rem !important;
+    font-weight: bold;
+    padding : 10px !important;
+    background : white!important;
+}
+.card-body{
+    padding: 30px 0px!important;
+}
+.card-body li {
+    margin : 10px 0 ;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    
+}
+.card-footer{
+    padding: 15px 0 !important;
+    background : white!important ;
+}
+.card:hover .card-footer a{
+    border : 1px solid  rgb(116, 200, 228);
+    border-radius: 100px;
+    margin : 0 5px ;
+    padding : 12px 35px ;
+    outline : none;
+    color : white;
+    font-size: 16;
+    text-align: center;
+    background:  rgb(116, 200, 228)
+}
+.card-footer a:hover{
+    color: white;
+    background : rgb(116, 200, 228) ;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,.3);;
+
+}
+.card:hover .card-header , .card:hover .money{
+    color : rgb(116, 200, 228)
+}
