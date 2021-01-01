@@ -299,6 +299,10 @@ margin-top: 50px;
     padding: 10px 0;
     
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7445f33f03c6a2d00b8785550f06401a89293477
  .box {
      text-align: center;
      border : 1px solid rgba(0,0,0,0.2);
@@ -344,6 +348,7 @@ margin-top: 50px;
      color: #666 ;
      margin-bottom: 20px;
     }
+<<<<<<< HEAD
 /*.............. contact us and about us......................
 ............................*/
 
@@ -393,6 +398,9 @@ input{
 
 
 
+=======
+/*.............. contact us and about us..................................................*/
+>>>>>>> 7445f33f03c6a2d00b8785550f06401a89293477
 html{
     scroll-behavior: smooth;
 }
@@ -418,7 +426,11 @@ html{
 .form-button button{
     border: 1px solid #50d1c0;
     border-radius: 100px;
+<<<<<<< HEAD
     margin: 15px;
+=======
+    margin: 0 5px;
+>>>>>>> 7445f33f03c6a2d00b8785550f06401a89293477
     padding: 12px 35px;
     outline: none;
     color: #50d1c0;
@@ -464,6 +476,7 @@ form:hover .form-button button{
     min-width: 130px;
     min-height: 45px;
 }
+<<<<<<< HEAD
 .map-responsive {
 	position: relative;
 	overflow: hidden;
@@ -480,6 +493,8 @@ form:hover .form-button button{
 	height: 1000%;
 	border: none; 
 }
+=======
+>>>>>>> 7445f33f03c6a2d00b8785550f06401a89293477
 
 .footersection{
     width: 100%;
@@ -512,7 +527,11 @@ form:hover .form-button button{
 }
 
 #myBtn {
+<<<<<<< HEAD
     display: none; 
+=======
+    /*display: none;*/    
+>>>>>>> 7445f33f03c6a2d00b8785550f06401a89293477
     position: fixed;
     bottom: 20px;
     right: 40px;
@@ -529,6 +548,25 @@ form:hover .form-button button{
     background-color: gray;
 }
 
+<<<<<<< HEAD
+=======
+.map-responsive {
+	position: relative;
+	overflow: hidden;
+	height: 0;
+	margin-bottom: 3rem;
+	padding-bottom: 50%;
+	border-radius: 0.25rem;
+}
+.map-responsive iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1000%;
+	height: 1000%;
+	border: none; 
+}
+>>>>>>> 7445f33f03c6a2d00b8785550f06401a89293477
 
 @media(max-width: 768px){
     .nav-item{
