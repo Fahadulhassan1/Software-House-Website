@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+    crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+
+</head>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="js/jquery-3.3.1.slim.min.js">
+	<link rel="stylesheet" type="text/css" href="js/popper.min.js">
+<body>
+	<div class="header" id="topheader">
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+		  <div class="container text-uppercase p-2">
+			<a class="navbar-brand font-weight-bold text-white" href="index.html">CanvaPk</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+	
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  <ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html#servicediv">Service</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html#pricingdiv">Packages</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="index.html#testimonialid">Testimonials</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#contactid">Contact Us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="About.html#aboutid">About Us</a>
+				  </li>
+	
+			  </ul>
+	
+			</div>
+		  </div>
+		</nav>
+		<section class="header-section">
+		  <div class="center-div">
+			<h1 class="font-weight-bold">We are the developers</h1>
+			<p>we create the wolrd best websites. </p>
+			<div class="header-buttons">
+			  <a href="About.html#aboutid">About Us</a>
+			  <a href="Contact us.html#contactid">Contact Us</a>
+			</div>
+		  </div>
+	
+		</section>
+	
+	  </div>
+<!----contact us starts--->
+
+<section class="contactus" id="contactid">
+	<div class="container headings text-center">
+		<h1 class="text-center font-weight-bold">CONTACT US</h1>
+		<p class="text-capitalize pt-1">We're Here To Help And Answer Any Question You Might Have. We Look Forward To Hearing from You 🙂</p>
+	</div>
+	<div class="container contactid">
+		<div class="row">
+			<div class="col-lg-8 col-md-8 col-10 offset-lg-2 offset-md-2 offset-1">
+				<form action="action_page.php" method="post">
+			  		<div class="form-group">
+						<input type="text" class="form-control" placeholder="Enter Your Name" 
+						name = "username"
+						id="username" required autocomplete="off" onkeyup="validate(this)">
+						<p>user must contain 5-12 characters</p>
+			  		</div>
+			  		<div class="form-group invalid">
+						<input type="email" class="form-control"
+						name="email" placeholder="Enter Your Email" id="email" onkeyup="validate(this)">
+						<p>Email must be a valid address, e.g. me@mydomain.com</p>
+						
+			  		</div>	
+
+			  	
+			  		<div class="form-group ">
+						<input type="number" 
+						name="telephone" class="form-control  "  placeholder="Enter Your Mobile Number" id="mobile" required autocomplete="off" onkeyup="validate(this)">
+						<p>Telephone must be a valid UK telephone number (11 digits)</p>
+					  </div>
+					  
+
+			  		<div class="form-group">
+					  <textarea class="form-control"  id="comment" name="details" placeholder="Enter Your Message and details of your requirements"></textarea >
+						
+
+					<div class="d-flex justify-content-center form-button">
+			  		<button type="submit" class="btn btn-primary">Submit</button>
+			  		</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!----contact us ends--->
+
+<!----newsletter starts--->
+
+<section class="newsletter" id="newsletterid">
+	<div class="container headings text-center">
+		<h1 class="text-center font-weight-bold">SUBSCRIBE TO OUR NEWSLETTER</h1>
+	</div>
+
+	<div class="container">
+    
+		<div class="row">
+      
+			<div class="col-lg-12  col-12 emailcheck">
+        <form action="subscribers.php" method="post">
+				<div class="input-group ">
+            <input type="text" name = "subscription" class="form-control news-input" placeholder="Your Email" >
+            <button class = "opaciti" type = "submit" >
+				    <div class="input-group-append">
+				      <span class="input-group-text">Subscribe</span>
+            </div>
+          </button>
+        </div>
+      </form>
+      </div>
+    
+    </div>	
+ 
+	</div>
+
+</section>
+
+
+<!----newsletter ends--->
+<!----maps-->
+<section>
+	<div class="container">
+	<div class = 'row'>
+		<div class = 'col-lg-8 offset-lg-2 col-12 '>
+	<div class="map-responsive">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13284.823618856048!2d73.1565933!3d33.6518263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6b55e05d462beb1!2sCOMSATS+Institute+of+Information+Technology!5e0!3m2!1sen!2s!4v1440748016287" ></iframe>
+                       
+					</div>
+				</div>
+			</div>
+		</div>
+</section>
+
+<!----footer starts--->
+
+<footer class="footersection" id="footerdiv">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-4 col-md-6 col-12 footer-div">
+				<div>
+					<h3>ABOUT CanvaPk</h3>
+					<p>The world has become so fast paced that people don't want to 
+					stand by reading a page of information to be they would much 
+				    rather look at a presentation and understand the message.</p>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+				<div>
+					<h3>NAVIGATION LINKS</h3>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#servicediv">Services</a></li>
+					<li><a href="index.html#pricingdiv">Price</a></li>
+					<li><a href="About.html#aboutid">About</a></li>
+					<li><a href="Contact us.html#contactid">Contact Us</a></li>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-12 col-12 footer-div">
+				<div>
+					<h3>NEWSLETTER</h3>
+					<p>For bussiness professionals caught between high OEM price and 
+					mediocre print and graphic output.</p>
+					<div class="container newsletter-main">
+						<div class="row">
+							<div class="col-lg-12 col-12">
+								<div class="input-group mb-3">
+								    <input type="text" class="form-control news-input" placeholder="Your Email">
+								    <div class="input-group-append">
+								      <span class="input-group-text">Subscribe</span>
+								    </div>
+								</div>
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mt-5 text-center">
+			<p>Copyright &copy; All rights reserved | This Website is made with love by CanvaPk</p>
+		</div>
+
+		<div class="scrolltop float-right">
+			<i class="fa fa-arrow-up" onclick="topFunction()" id="myBtn"></i>
+		</div>
+
+	</div>
+</footer>
+
+<!----footer ends--->
+
+<script >
+	
+	const patterns = {
+    username: /^[a-z]{5,12}$/i ,
+    telephone : /^[0-9]{11}$/ ,
+    password: /^[a-z]{5,12}$/i ,
+    email: /^([a-z0-9\.-]+)@([a-z0-9]+)\.([a-z]{2,8})(\.[a-z]{2,8})?$/ ,
+    slug: /^[a-z0-9-]{8,12} $/,
+
+}
+function validate (field){
+    if(patterns[field.name].test(field.value)){
+        field.className = 'valid'
+    }else{
+        field.className = 'invalid'
+    }
+}
+
+</script>
+
+</body>
+</html>
+
